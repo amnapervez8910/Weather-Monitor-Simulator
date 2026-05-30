@@ -1,6 +1,6 @@
-# Weather Monitoring System (Arduino + RS232)
+# Weather Monitoring System (Arduino UNO + RS232 Communication)
 
-Simple weather monitor using Arduino UNO, LEDs, and RS232 communication. No real sensors — it simulates temperature data.
+A simple weather monitoring system using Arduino UNO that simulates temperature and humidity data without real sensors. Temperature range is indicated using LEDs, and data is transmitted to a PC via RS232 communication using the MAX232 module.
 
 ## Components
 - Arduino UNO
@@ -10,11 +10,13 @@ Simple weather monitor using Arduino UNO, LEDs, and RS232 communication. No real
 - Breadboard & wires
 - RS232 cable
 
-## How it works
-- Simulates temperature
-- Blue LED = High temp (≥30°C)
-- White LED = Low temp (<30°C)
-- Sends data to PC via RS232
+## How It Works
+- Arduino generates simulated temperature data
+- User enters temperature value via serial terminal
+- Arduino compares value with threshold (30°C)
+- **Blue LED turns ON** if temperature ≥ 30°C (High)
+- **White LED turns ON** if temperature < 30°C (Low)
+- Data is sent to PC via MAX232 (TTL to RS232 conversion)
 
 ## Run it
 1. Connect circuit
