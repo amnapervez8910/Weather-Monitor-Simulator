@@ -33,3 +33,5 @@ A simple weather monitoring system using Arduino UNO that simulates temperature 
 ## References
 - [Arduino](https://www.arduino.cc)
 - [MAX232](https://www.max232.com/)
+
+**📁 Full project report with circuit diagram and complete code is attached in this repository.**
