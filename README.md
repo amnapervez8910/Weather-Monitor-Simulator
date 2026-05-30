@@ -14,11 +14,11 @@ A simple weather monitoring system using Arduino UNO that simulates temperature 
 - Arduino generates simulated temperature data
 - User enters temperature value via serial terminal
 - Arduino compares value with threshold (30°C)
-- **Blue LED turns ON** if temperature ≥ 30°C (High)
-- **White LED turns ON** if temperature < 30°C (Low)
+- Blue LED turns ON if temperature ≥ 30°C (High)
+- White LED turns ON if temperature < 30°C (Low)
 - Data is sent to PC via MAX232 (TTL to RS232 conversion)
 
-## Run it
+## Run It
 1. Connect circuit
 2. Upload code to Arduino
 3. Open terminal (9600 baud)
@@ -34,4 +34,5 @@ A simple weather monitoring system using Arduino UNO that simulates temperature 
 - [Arduino](https://www.arduino.cc)
 - [MAX232](https://www.max232.com/)
 
-**📁 Full project report with circuit diagram and complete code is attached in this repository.**
+## 📁 Full Project Report
+Full project report with circuit diagram and complete code is attached in this repository.
