@@ -22,7 +22,7 @@ A simple weather monitoring system using Arduino UNO that simulates temperature 
 1. Connect circuit
 2. Upload code to Arduino
 3. Open terminal (9600 baud)
-4. Enter temperature (e.g., 28 or 35)
+4. Enter temperature (e.g.,28 or 35)
 5. See LED & serial output
 
 ## Troubleshooting
