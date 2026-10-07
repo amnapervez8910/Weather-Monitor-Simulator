@@ -1,4 +1,4 @@
-      # Weather Monitoring System (Arduino UNO + RS232 Communication)
+       # Weather Monitoring System (Arduino UNO + RS232 Communication)
 
 A simple weather monitoring system using Arduino UNO that simulates temperature and humidity data without real sensors. Temperature range is indicated using LEDs, and data is transmitted to a PC via RS232 communication using the MAX232 module.
 
